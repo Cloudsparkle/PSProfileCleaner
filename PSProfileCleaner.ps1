@@ -90,7 +90,7 @@ while ($true)
   if ($RunOnce -eq $True)
   {
   write-host "Running Once, exiting now"
-  Exit 1
+  Exit 0
   }
 
   #Sleeping 30 seconds before the next run
